@@ -52,4 +52,84 @@ var_dump( preg_replace( '#a.+?x#', '!', $str ) );
 /*Напишите регулярку, которая найдет все строки по краям которых стоят буквы 'a', и заменит каждую из них на '!'. Между буквами a может быть любой символ (кроме 'a').*/
 $str = 'aba accca azzza wwwwa';
 var_dump( preg_replace( '#a.+?a#', '!', $str ) );
+$str = '1 12 123';
+var_dump( preg_replace( '#\d#', '!', $str ) );
+$str = '1 12 123 abc @@@';
+var_dump( preg_replace( '#\d+#', '!', $str ) );
+
+$str = '123abc3@@';
+var_dump( preg_replace( '#\D+#', '!', $str ) );
+
+$str = '1 12 123 abc @@@';
+var_dump( preg_replace( '#\s{1}#', '!', $str ) );
+
+$str = '1 12 123 abc @@@';
+var_dump( preg_replace( '#\S+#', '!', $str ) );
+
+$str = '1 12 123a Abc @@@';
+var_dump( preg_replace( '#\w+#', '!', $str ) );
+
+/*Напишите регулярку, которая найдет строки, в которых по краям стоят буквы 'a', а между ними одна цифра.*/
+$str = 'a1a a2a a3a a4a a5a aba aca';
+var_dump( preg_replace( '#a\d{1}a#', '!', $str ) );
+
+/*Напишите регулярку, которая найдет строки, в которых по краям стоят буквы 'a', а между ними любое количество цифр.*/
+$str = 'a1a a22a a333a a4444a a55555a aba aca';
+var_dump( preg_replace( '#a\d+a#', '!', $str ) );
+/*Напишите регулярку, которая найдет строки, в которых по краям стоят буквы 'a', а между ними любое количество цифр (в том числе и ноль цифр, то есть строка 'aa').*/
+$str = 'aa a1a a22a a333a a4444a a55555a aba aca';
+var_dump( preg_replace( '#a\d*a#', '!', $str ) );
+/*Напишите регулярку, которая найдет строки следующего вида: по краям стоят буквы 'a' и 'b', а между ними - не число.*/
+$str = 'avb a1b a2b a3b a4b a5b abb acb';
+var_dump( preg_replace( '#a\Db#', '!', $str ) );
+/*Напишите регулярку, которая найдет строки следующего вида: по краям стоят буквы 'a' и 'b', а между ними - не буква и не цифра.*/
+$str = 'ave a#b a2b a$b a4b a5b a-b acb';
+var_dump( preg_replace( '#a\Wb#', '#', $str ) );
+/*Напишите регулярку, которая заменит все пробелы на '!'.*/
+$str = 'ave a#a a2a a$a a4a a5a a-a aca';
+var_dump( preg_replace( '#\s#', '!', $str ) );
+$str = 'xax xbx xcx x@x';
+var_dump( preg_replace( '#[abc]#', '$', $str ) );
+
+$str = 'xax xbx xmx x@x';
+var_dump( preg_replace( '#[a-k]#', '$', $str ) );
+
+$str = 'xax xBx xcx x@x';
+$res = preg_replace( '#x[A-Z]x#', '!', $str );
+var_dump( $res );
+
+$str = 'xax x1x x3x x5x x@x';
+var_dump( preg_replace( '#x[0-9]x#', '$', $str ) );
+
+$str = 'xax x1x x3x x5x x@x';
+var_dump( preg_replace( '#x[3-7]x#', '!', $str ) );
+
+$str = 'xax x1x x3x x5x x@x';
+var_dump( preg_replace( '#x[1-9a-z]x#', '!', $str ) );
+
+/*Напишите регулярку, которая найдет строки по шаблону: цифра '1', затем символ не 'e' и не 'x', цифра '2'.*/
+preg_replace( '#1[^ex]2#', '!1', $str )
+
+?>
+<!-- Number #195 -->
+<?php
+$str = 'яяя ййй ёёё';
+var_dump( preg_replace( '#[а-яё]#u', '!', $str ) );
+
+$str = 'wйw wяw wёw wqw';
+var_dump( preg_replace( '#w[а-яё]w#u', '!', $str ) );
+
+$str = 'ааа ббб ёёё ззз ййй ААА БББ ЁЁЁ ЗЗЗ ЙЙЙ';
+var_dump( preg_replace( '#[а-яА-ЯёЁ]+#u', '!', $str ) );
+/*Напишите регулярку, которая найдет строки 'a.a', 'a+a', 'a*a', не затронув остальных.*/
+$str = 'aba aea aca aza axa a.a a+a a*a';
+var_dump( preg_replace( '#a\wa#', '!', $str ) );
+/*Напишите регулярку, которая найдет строки по шаблону: буква 'x', затем НЕ точка, НЕ собака, и НЕ доллар, а потом буква 'z'.*/
+$str = 'xaz x.z x3z x@z x$z xrz';
+var_dump( preg_replace( '#x[^.@$]z#', '!', $str ) );
+/*Напишите регулярку, которая найдет строки по шаблону: цифра или точка от 1 и более раз.*/
+/*'#[a-z][\d.]+[a-z]#'*/
+/*Напишите регулярку, которая найдет строки по шаблону: не цифра и не буква от 'a' до 'g' от 3 до 7 раз.*/
+//'#[^1-9a-g]{3,7}#'
+
 ?>
