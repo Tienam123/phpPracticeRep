@@ -23,5 +23,33 @@ $str = '[abc] {abc} abc (abc) [abc]';
 var_dump( preg_replace( '#\[[a-zA-Z]*\]#', '!', $str ) );
 
 /*В данном примере шаблон поиска выглядит так: буква 'x', буква 'a' два раза и более, буква 'x':*/
+$str = 'xx xax xaax xaaax';
+var_dump( preg_replace( '#xa{2,}x#', '!', $str ) );
 
+/*В данном примере шаблон поиска выглядит так: буква 'x', буква 'a' три раза, буква 'x':*/
+$str = 'xx xax xaax xaaax';
+var_dump( preg_replace( '#xa{3}x#', '!', $str ) );
+/*В данном примере шаблон поиска выглядит так: буква 'a' десять раз:*/
+$str = 'aaa aaaaaaaaaa aaa';
+var_dump( preg_replace( '#a{10}#', '!', $str ) );
+
+/*В данном примере автор кода хотел такой шаблон: буква 'x', буква 'a' три раза раза и меньше, буква 'x', но, к сожалению, такое - {,3} - не работает. Нужно указать явно:*/
+$str = 'xx xax xaax xaaax';
+var_dump( preg_replace( '#xa{0,3}x#', '!', $str ) );
+
+/*Напишите регулярку, которая найдет строки 'abba', 'abbba', 'abbbba' и только их.*/
+$str = 'aa aba abba abbba abbbba abbbbba';
+var_dump( preg_replace( '#ab{2,3}a#', '!', $str ) );
+/*Напишите регулярку, которая найдет строки вида 'aba', в которых 'b' встречается менее трех раз (включительно).*/
+$str = 'aa aba abba abbba abbbba abbbbba';
+var_dump( preg_replace( '#ab{0,3}a#', '!', $str ) );
+/*Напишите регулярку, которая найдет строки вида 'aba', в которых 'b' встречается более четырех раз (включительно).*/
+$str = 'aa aba abba abbba abbbba abbbbba';
+var_dump( preg_replace( '#ab{4,}a#', '!', $str ) );
+/*Давайте разберем на примере. Пусть у нас есть вот такая строка:*/
+$str = 'aeeex zzz x kkk';
+var_dump( preg_replace( '#a.+?x#', '!', $str ) );
+/*Напишите регулярку, которая найдет все строки по краям которых стоят буквы 'a', и заменит каждую из них на '!'. Между буквами a может быть любой символ (кроме 'a').*/
+$str = 'aba accca azzza wwwwa';
+var_dump( preg_replace( '#a.+?a#', '!', $str ) );
 ?>
