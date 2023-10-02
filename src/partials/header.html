@@ -1,0 +1,14 @@
+<div class="number-1">56</div>
+<div class="number-2">786</div>
+<button id="button" style="color: black">Click</button>
+<script>
+  const button = document.querySelector('#button');
+  const num1 = document.querySelector('.number-1');
+  const num2 = document.querySelector('.number-2');
+  button.addEventListener('click', onClickButton);
+
+  function onClickButton() {
+    let result = num1.textContent + num2.textContent;
+    document.body.insertAdjacentHTML('beforebegin', result);
+  }
+</script>
