@@ -110,3 +110,4 @@ function findZodiakSign(data) {
 }
 
 console.log(findZodiakSign('06-23'));
+//Finish 336 task of Code.mu
