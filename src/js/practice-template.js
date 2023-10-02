@@ -1,11 +1,11 @@
 const days = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Субота'];
 
-function isCorrectDate(day, month, year) {
-  const date = new Date(year, month, day);
-  if (date.getDate() == day && date.getMonth() == month && date.getFullYear() == year) {
-    return 'Is corrent Date';
-  }
-  return 'Incorrect Date';
+function getDayOfYear(month, day) {
+  month -= 1;
+  let now = new Date();
+  let date = new Date(now.getFullYear(), month, day);
+  console.log(days[date.getDay()]);
+  console.log(date);
 }
 
-console.log(isCorrectDate(0, 10, 1990));
+getDayOfYear(10, 25);
