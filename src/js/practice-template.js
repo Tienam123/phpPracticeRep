@@ -11,3 +11,43 @@ for (let month = 0; month <= 11; month++) {
     }
   }
 }
+
+let newDate = new Date(now.getFullYear(), now.getMonth() - 3);
+console.log(newDate.getFullYear());
+
+//Определите, какой день недели будет в последнем дне текущего месяца.
+function isDayOnPreviousMonth(date) {
+  let result = new Date(date.getFullYear(), date.getMonth() + 1, 0);
+  return days[result.getDay()];
+}
+
+console.log(isDayOnPreviousMonth(now));
+
+// Напишите код, который будет определять, високосный ли текущий год.
+function isLeapYear(date) {
+  const result = new Date(date.getFullYear(), 2, 0);
+  if (result.getDate() == 29) {
+    return 'Высокосный';
+  }
+  return 'Не высокосный';
+}
+
+console.log(isLeapYear(now));
+
+// Напишите код, который будет находить предыдущий високосный год.
+
+function findLeapYear(date) {
+  let newDate = new Date(date.getFullYear(), 2, 0);
+  if (newDate.getDate() != 29) {
+    let changedDate = new Date(newDate.getFullYear() + 1, 2, 0);
+    if (changedDate.getDate() == 29) {
+      let result = changedDate;
+      return result;
+    } else {
+      return findLeapYear(changedDate);
+    }
+  }
+
+}
+
+console.log(findLeapYear(now));
