@@ -1,0 +1,1 @@
+function getRandomColor(){for(var e="#",o=0;o<6;o++)e+="0123456789ABCDEF"[Math.floor(16*Math.random())];return e}console.log("Hello world"),console.log(new Date);let date=new Date;console.log(date.getFullYear()+"-"+(date.getMonth()+1)+"-"+date.getDate());
