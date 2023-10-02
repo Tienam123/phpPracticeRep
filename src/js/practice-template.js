@@ -1,5 +1,21 @@
-let now = new Date(2010, 1, 15);
-let date = new Date(2000, 8, 1);
-console.log('Between this dates is :', Math.round((now - date) / (1000 * 60 * 60 * 24)), ' days');
-console.log('Between this dates is :', Math.round((now - date) / (1000 * 60 * 60 * 24 * 365 / 12)), ' month');
-console.log('Between this dates is :', Math.round((now - date) / (1000 * 60 * 60 * 24 * 365)), ' years');
+function getQuantityDaysOFMoth(year, month = 0) {
+  return new Date(year, month, 0);
+}
+
+const days = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Субота'];
+
+console.log(getQuantityDaysOFMoth(4, 2025), days[getQuantityDaysOFMoth(4, 2025).getDay()]);
+console.log(getQuantityDaysOFMoth(1990));
+
+function isLeapYear(year, month = 2, day = 0) {
+  const date = new Date(year, month, day);
+  if (date.getDate() === 29) {
+    console.log('Год высокосный');
+  } else {
+    console.log('Не высокосный');
+  }
+
+}
+
+isLeapYear(1996);
+
