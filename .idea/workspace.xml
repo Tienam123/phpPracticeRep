@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="122732a8-6dde-4a76-ac8c-b55634516d56" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/dir/compontents.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dir/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+    <list default="true" id="122732a8-6dde-4a76-ac8c-b55634516d56" name="Changes" comment="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin">
+      <change afterPath="$PROJECT_DIR$/dir/images.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,12 +103,25 @@
       <workItem from="1697325182845" duration="6609000" />
       <workItem from="1697331881309" duration="67000" />
       <workItem from="1697331997761" duration="5280000" />
-      <workItem from="1697351605784" duration="6948000" />
+      <workItem from="1697351605784" duration="7350000" />
     </task>
+    <task id="LOCAL-00001" summary="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin">
+      <option name="closed" value="true" />
+      <created>1697360056346</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697360056346</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
