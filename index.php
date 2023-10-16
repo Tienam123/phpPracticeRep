@@ -9,23 +9,7 @@
 </head>
 <body>
 <?php
-
-function getFile( $file ) {
-	ob_start();
-	include $file;
-
-	return ob_get_clean();
-}
-
-$res = getFile( 'header.php' );
-echo $res;
-
-
-echo $res;
-
-echo $res;
-require 'functions.php';
-var_dump( squre( 15, 2 ) );
+include_once 'functions.php';
 ?>
 </body>
 </html>
