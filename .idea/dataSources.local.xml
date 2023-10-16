@@ -12,7 +12,16 @@
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="ITVDN_DB" />
+          <node kind="schema">
+            <name qname="my_db" />
+            <name qname="Code__DB" />
+            <name qname="code_mu" />
+            <name qname="Family_db" />
+            <name qname="ITVDN_DB" />
+            <name qname="test" />
+            <name qname="users" />
+            <name qname="code__db" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>

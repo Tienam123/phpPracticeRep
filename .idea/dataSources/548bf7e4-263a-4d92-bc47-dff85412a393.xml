@@ -992,13 +992,13 @@ sys|schema||mysql.sys||TRIGGER|G</Grants>
     <collation id="287" parent="1" name="utf8mb4_zh_0900_as_cs">
       <Charset>utf8mb4</Charset>
     </collation>
-    <schema id="288" parent="1" name="ITVDN_DB">
-      <IntrospectionTimestamp>2023-10-15.14:46:57</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-10-15.08:46:57</LocalIntrospectionTimestamp>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
-    </schema>
-    <schema id="289" parent="1" name="information_schema">
+    <schema id="288" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
+    </schema>
+    <schema id="289" parent="1" name="my_db">
+      <IntrospectionTimestamp>2023-10-16.20:59:51</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-10-16.14:59:51</LocalIntrospectionTimestamp>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="290" parent="1" name="mysql">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
@@ -1022,9 +1022,9 @@ sys|schema||mysql.sys||TRIGGER|G</Grants>
       <Plugin>caching_sha2_password</Plugin>
     </user>
     <user id="296" parent="1" name="root"/>
-    <table id="297" parent="288" name="users">
+    <table id="297" parent="289" name="users">
       <Engine>InnoDB</Engine>
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+      <CollationName>utf8mb4_general_ci</CollationName>
     </table>
     <column id="298" parent="297" name="id">
       <AutoIncrement>1</AutoIncrement>
@@ -1033,18 +1033,15 @@ sys|schema||mysql.sys||TRIGGER|G</Grants>
       <Position>1</Position>
     </column>
     <column id="299" parent="297" name="name">
-      <DasType>varchar(16)|0s</DasType>
-      <NotNull>1</NotNull>
+      <DasType>varchar(24)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="300" parent="297" name="firstName">
-      <DasType>varchar(21)|0s</DasType>
-      <NotNull>1</NotNull>
+    <column id="300" parent="297" name="age">
+      <DasType>varchar(24)|0s</DasType>
       <Position>3</Position>
     </column>
     <column id="301" parent="297" name="salary">
       <DasType>int|0s</DasType>
-      <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
     <index id="302" parent="297" name="PRIMARY">

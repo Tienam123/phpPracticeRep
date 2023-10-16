@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="122732a8-6dde-4a76-ac8c-b55634516d56" name="Changes" comment="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin">
-      <change afterPath="$PROJECT_DIR$/dir/images.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\OSPanel\\domains\\phpPracticeRep\\.prettierrc.json&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -103,7 +104,9 @@
       <workItem from="1697325182845" duration="6609000" />
       <workItem from="1697331881309" duration="67000" />
       <workItem from="1697331997761" duration="5280000" />
-      <workItem from="1697351605784" duration="7350000" />
+      <workItem from="1697351605784" duration="8076000" />
+      <workItem from="1697458243695" duration="456000" />
+      <workItem from="1697458742151" duration="5228000" />
     </task>
     <task id="LOCAL-00001" summary="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin">
       <option name="closed" value="true" />
@@ -113,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697360056346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin">
+      <option name="closed" value="true" />
+      <created>1697360105027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697360105027</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
