@@ -4,18 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="122732a8-6dde-4a76-ac8c-b55634516d56" name="Changes" comment="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin">
+    <list default="true" id="122732a8-6dde-4a76-ac8c-b55634516d56" name="Changes" comment="Передача функций по ссылкам">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393/storage_v2/_src_/schema/Code__DB.6-8i0A.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393/storage_v2/_src_/schema/Family_db.GctmJg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393/storage_v2/_src_/schema/ITVDN_DB.qCJlkQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393/storage_v2/_src_/schema/code__db.y49IzA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393/storage_v2/_src_/schema/code_mu.OmEjOA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393/storage_v2/_src_/schema/my_db.8XM4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393/storage_v2/_src_/schema/test.kkQ2AA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/548bf7e4-263a-4d92-bc47-dff85412a393/storage_v2/_src_/schema/users.CI6mBg.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dir/compontents.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dir/header.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dir/images.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.sql" beforeDir="false" afterPath="$PROJECT_DIR$/users.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +84,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\OSPanel\\domains\\phpPracticeRep\\.prettierrc.json&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -119,7 +125,10 @@
       <workItem from="1697458742151" duration="10525000" />
       <workItem from="1697707269167" duration="3864000" />
       <workItem from="1697768335705" duration="224000" />
-      <workItem from="1697783719953" duration="3918000" />
+      <workItem from="1697783719953" duration="10965000" />
+      <workItem from="1697849040390" duration="909000" />
+      <workItem from="1697941975735" duration="477000" />
+      <workItem from="1697942553249" duration="5344000" />
     </task>
     <task id="LOCAL-00001" summary="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin">
       <option name="closed" value="true" />
@@ -145,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697468970451</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Передача функций по ссылкам">
+      <option name="closed" value="true" />
+      <created>1697787732429</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697787732429</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +181,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin" />
+    <MESSAGE value="Передача функций по ссылкам" />
+    <option name="LAST_COMMIT_MESSAGE" value="Передача функций по ссылкам" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
