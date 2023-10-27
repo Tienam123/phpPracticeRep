@@ -9,20 +9,7 @@
 </head>
 <body>
 <?php
-$host     = 'localhost';
-$user     = 'root';
-$password = '';
-$name     = 'code_mu';
-
-
-$connect = mysqli_connect( $host, $user, $password, $name );
-mysqli_query( $connect, "SET NAMES 'utf8'" );
-$query = "SELECT * FROM users";
-$res = mysqli_query( $connect, $query ) or die( mysqli_error( $connect ) );
-
-for ( $data = []; $result = mysqli_fetch_assoc( $res ); $data[] = $result ) {
-}
-var_dump( $data );
+include "./lesson1/index.php"
 
 ?>
 </body>
