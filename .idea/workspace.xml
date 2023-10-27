@@ -4,13 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="122732a8-6dde-4a76-ac8c-b55634516d56" name="Changes" comment="Передача функций по ссылкам">
-      <change afterPath="$PROJECT_DIR$/lesson1/Human.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lesson1/index.php" afterDir="false" />
+    <list default="true" id="122732a8-6dde-4a76-ac8c-b55634516d56" name="Changes" comment="1 урок PHP">
+      <change afterPath="$PROJECT_DIR$/app/Developer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/HasRest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Salary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Visitor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Worker.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/WorkerInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/Human.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson1/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.sql" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +57,9 @@
   </component>
   <component name="PhpDebugGeneral" hide_empty_superglobals="false" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -73,7 +84,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "prettierjs.PrettierConfiguration.Package": "C:\\OSPanel\\domains\\phpPracticeRep\\.prettierrc.json",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Language Defaults",
+    "settings.editor.selected.configurable": "inlay.hints",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -92,6 +103,14 @@
     <configuration default="true" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node">
       <method v="2" />
     </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/public/index.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.index.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -119,7 +138,15 @@
       <workItem from="1697849040390" duration="909000" />
       <workItem from="1697941975735" duration="477000" />
       <workItem from="1697942553249" duration="5344000" />
-      <workItem from="1698373198761" duration="1385000" />
+      <workItem from="1698373198761" duration="1942000" />
+      <workItem from="1698375157330" duration="132000" />
+      <workItem from="1698376105507" duration="3967000" />
+      <workItem from="1698414161284" duration="446000" />
+      <workItem from="1698414618562" duration="55000" />
+      <workItem from="1698414687945" duration="3114000" />
+      <workItem from="1698419195490" duration="3989000" />
+      <workItem from="1698424837752" duration="1689000" />
+      <workItem from="1698427519010" duration="6555000" />
     </task>
     <task id="LOCAL-00001" summary="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin">
       <option name="closed" value="true" />
@@ -153,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697787732429</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1 урок PHP">
+      <option name="closed" value="true" />
+      <created>1698374639308</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698374639308</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +208,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin" />
     <MESSAGE value="Передача функций по ссылкам" />
-    <option name="LAST_COMMIT_MESSAGE" value="Передача функций по ссылкам" />
+    <MESSAGE value="1 урок PHP" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 урок PHP" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
