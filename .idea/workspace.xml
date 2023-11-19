@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="122732a8-6dde-4a76-ac8c-b55634516d56" name="Changes" comment="learning OOP PHP">
-      <change afterPath="$PROJECT_DIR$/public/lesson1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/text.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpPracticeRep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpPracticeRep.iml" afterDir="false" />
+    <list default="true" id="122732a8-6dde-4a76-ac8c-b55634516d56" name="Changes" comment="learning OOP PHP Полимофизм">
+      <change afterPath="$PROJECT_DIR$/php5.6/Car.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php5.6/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Developer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Developer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/HasRest.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Salary.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Visitor.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Worker.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/WorkerInterface.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,39 +62,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;SQL Inserts&quot;,
-    &quot;database.data.extractors.current.id&quot;: &quot;SQL Updates&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/domains/phpPracticeRep&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\OSPanel\\domains\\phpPracticeRep\\.prettierrc.json&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "SQL Inserts",
+    "database.data.extractors.current.id": "SQL Updates",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/OSPanel/domains/practiceJS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\OSPanel\\domains\\phpPracticeRep\\.prettierrc.json",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;,
-      &quot;sqlserver&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "sqlserver"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\OSPanel\domains\phpPracticeRep" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.lesson1.php">
+  <component name="RunManager" selected="PHP Script.index.php">
     <configuration default="true" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../Program Files/nodejs/node">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/php5.6/index.php">
       <method v="2" />
     </configuration>
     <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/public/index.php">
@@ -114,8 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHP Script.lesson1.php" />
         <item itemvalue="PHP Script.index.php" />
+        <item itemvalue="PHP Script.index.php (1)" />
+        <item itemvalue="PHP Script.lesson1.php" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +152,9 @@
       <workItem from="1698438707770" duration="960000" />
       <workItem from="1698452919982" duration="1175000" />
       <workItem from="1699750620935" duration="3060000" />
+      <workItem from="1699763689084" duration="1296000" />
+      <workItem from="1700294579097" duration="3034000" />
+      <workItem from="1700359243284" duration="2276000" />
     </task>
     <task id="LOCAL-00001" summary="Упражнение в создании таблицы , создание дампа таблицы базы данных в phpMyAdmin">
       <option name="closed" value="true" />
@@ -206,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698434792782</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="learning OOP PHP Полимофизм">
+      <option name="closed" value="true" />
+      <created>1699763711957</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699763711957</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +234,8 @@
     <MESSAGE value="Передача функций по ссылкам" />
     <MESSAGE value="1 урок PHP" />
     <MESSAGE value="learning OOP PHP" />
-    <option name="LAST_COMMIT_MESSAGE" value="learning OOP PHP" />
+    <MESSAGE value="learning OOP PHP Полимофизм" />
+    <option name="LAST_COMMIT_MESSAGE" value="learning OOP PHP Полимофизм" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
