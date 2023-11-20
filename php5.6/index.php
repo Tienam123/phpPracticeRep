@@ -10,10 +10,9 @@
 <body>
 <?php
 include 'Car.php';
-$car = new Car('BMW', 'black', 380);
-$vaz = new Car('Vaz', 'red', 170);
-$zaz = new Car('ZAZ', 'red', 140);
-var_dump(Car::$_counterOfCars);
+$carOne = new Car('BMW', 'black', 340);
+$carTwo = $carOne;
+var_dump($carTwo === $carOne);
 
 ?>
 </body>

@@ -7,6 +7,7 @@ class Car
     public $maxSpeed;
     public $currentSpeed;
 
+    const MAX_LIFTING_CAPASITY = 630;
     public static $_counterOfCars = 0;
 
     public function __construct($brand, $color, $maxSpeed)
@@ -19,9 +20,12 @@ class Car
 
     public function __destruct()
     {
-        $this->stop();
+       self::$_counterOfCars--;
     }
 
+    public static function getCarWithRandomMaxSpeed() {
+        return new Car('Honda','Green',rand(200,300));
+    }
     public function move($speed)
     {
         $this->currentSpeed = $speed;
