@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,15 +13,22 @@
 <?php
 require 'vendor/connect.php';
 ?>
-<form action="" method="">
+<form action="./vendor/signup.php" method="post">
     <label for="">Логин</label>
     <input type="text" id="" placeholder="Введите свой логин">
     <label for="">Пароль</label>
     <input type="password" id="" placeholder="Введите пароль">
     <button type="submit">Войти</button>
     <p>
-        У вас нет аккаунта? - <a href="#">Зарегистрируйтесь</a>
+        У вас нет аккаунта? - <a href="./register.php">Зарегистрируйтесь</a>
     </p>
+    <?php
+    if (isset($_SESSION['message'])) {
+        $session = $_SESSION['message'];
+        echo '<p class="msg">'. $session . '</p>';
+    }
+    unset($_SESSION['message']);
+    ?>
 
 </form>
 </body>

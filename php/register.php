@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -9,21 +12,30 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-<form action="" method="" enctype="multipart/form-data">
+<form action="./vendor/signup.php" method="post" enctype="multipart/form-data">
     <label for="">Введите свое полное имя</label>
-    <input type="text" id="" placeholder="Введите свое полное">
+    <input type="text" name="full_name" placeholder="Введите свое полное">
     <label for="">Введите свой логин</label>
-    <input type="email" id="" placeholder="Введите свой логин">
+    <input type="text" name="login" placeholder="Введите свой логин">
+    <label for="">Введите свой адресс электронной почты</label>
+    <input type="email" name="email" placeholder="Введите свой E-mail">
     <label for="">Изображение профиля</label>
-    <input type="file" id="" placeholder="Введите свой пароль">
+    <input type="file" name="avatar">
     <label for="">Введите пароль</label>
-    <input type="password" id="" placeholder="Введите свой пароль">
+    <input type="password" name="password" placeholder="Введите свой пароль">
     <label for="">Введите подтверждение пароля</label>
-    <input type="password" id="" placeholder="Введите подверждение пароля">
+    <input type="password" name="password_confirm" placeholder="Введите подверждение пароля">
     <button type="submit">Войти</button>
     <p>
         У вас есть аккаунт? - <a href="./index.php">Войти</a>
     </p>
+    <?php
+    if (isset($_SESSION['message'])) {
+        $session = $_SESSION['message'];
+        echo '<p class="msg">'. $session . '</p>';
+    }
+    unset($_SESSION['message']);
+    ?>
 </form>
 </body>
 </html>
