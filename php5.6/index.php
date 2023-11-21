@@ -10,9 +10,12 @@
 <body>
 <?php
 include 'Car.php';
-$carOne = new Car('BMW', 'black', 340);
-$carTwo = $carOne;
-var_dump($carTwo === $carOne);
+include 'Mitsubishi.php';
+include 'BMW.php';
+
+$car = new Car('Honda');
+
+var_dump($car->color = 'red');
 
 ?>
 </body>
