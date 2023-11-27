@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2300cf29-c5ad-419d-b1ab-7837b6745bd4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/code.mu/connect.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code.mu/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php5.6/BMW.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php5.6/Mitsubishi.php" afterDir="false" />
+    <list default="true" id="2300cf29-c5ad-419d-b1ab-7837b6745bd4" name="Changes" comment="Форма регистрации и авторизация на PHP (Регистрация , нужно доработать авторизацию)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php5.6/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/php5.6/Car.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php5.6/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php5.6/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/карта обучения" beforeDir="false" afterPath="$PROJECT_DIR$/карта обучения.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,10 +65,35 @@
       <workItem from="1700489680851" duration="102000" />
       <workItem from="1700539549526" duration="1013000" />
       <workItem from="1700540614613" duration="21794000" />
+      <workItem from="1700573680659" duration="9542000" />
+      <workItem from="1700641213465" duration="1225000" />
+      <workItem from="1700663625252" duration="26000" />
     </task>
+    <task id="LOCAL-00001" summary="Форма регистрации и авторизация на PHP">
+      <option name="closed" value="true" />
+      <created>1700576834920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700576834920</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Форма регистрации и авторизация на PHP (Регистрация , нужно доработать авторизацию)">
+      <option name="closed" value="true" />
+      <created>1700588383550</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700588383550</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Форма регистрации и авторизация на PHP" />
+    <MESSAGE value="Форма регистрации и авторизация на PHP (Регистрация , нужно доработать авторизацию)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Форма регистрации и авторизация на PHP (Регистрация , нужно доработать авторизацию)" />
   </component>
 </project>
