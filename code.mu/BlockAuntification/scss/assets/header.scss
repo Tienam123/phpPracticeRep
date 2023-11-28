@@ -3,11 +3,12 @@ color: rgba(31, 32, 65, 0.50);
   // .header__container
   &__container {
     display: flex;
-    align-items: center;
+    align-items: center
   }
 
   // .header__menu
   &__menu {
+    flex:1 1 auto;
   }
 
   // .header__menu-actions
@@ -16,8 +17,6 @@ color: rgba(31, 32, 65, 0.50);
 }
 
 .header-menu {
-  margin-left: auto;
-  margin-right: 50px;
   // .header-menu__item
   &__item {
   }

@@ -13,8 +13,14 @@ if (!empty($_POST['login'] && !empty($_POST['password']))) {
     if (!empty($data)) {
         $query = "UPDATE users SET isOnline='true' WHERE login='$login'";
         $res = $connect->query($query);
+        $_SESSION['message'] = 'Регистрация прошла успешно';
+        $_SESSION['auth'] = true;
+        header('Location: ../index.php');
     } else {
         $query = "UPDATE users SET isOnline='false'";
         $res = $connect->query($query);
+        $_SESSION['message'] = 'Логин или пароль введены неверно';
+        $_SESSION['auth'] = false;
+        header('Location: ../vendor/login.php');
     }
 }

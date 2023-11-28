@@ -1,7 +1,9 @@
 <?php
-session_start();
 require '../config/connect.php';
 require_once '../config/functions.php';
+if (isset($_SESSION)) {
+    var_dump($_SESSION);
+}
 ?>
 <!doctype html>
 <html lang="en">
@@ -35,21 +37,11 @@ require_once '../config/functions.php';
     <main class="page">
         <section class="login">
             <div class="login__container">
+
                 <form action="aunth.php" method="post">
                     <input type="text" placeholder="Введите логин" name="login">
                     <input name="password" placeholder="Введите пароль" type="password">
                     <button type="submit">Войти</button>
-                        <?php
-                        if (isset($_SESSION['message'])) {
-                            if ($_SESSION['auth']) {
-                                echo '<p>' . $_SESSION['message'] . '</p>';
-                                unset($_SESSION['message']);
-                            } else {
-                                echo '<p style="color: red">' . $_SESSION['message'] . '</p>';
-                                unset($_SESSION['message']);
-                            }
-                        }
-                        ?>
                 </form>
             </div>
         </section>

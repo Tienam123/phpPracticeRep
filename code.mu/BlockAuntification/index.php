@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (isset($_GET['logout'])) {
+    session_unset();
+    session_destroy();
+
+    header('Location: index.php');
+}
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -25,19 +34,27 @@
                 <li class="header-menu__item"><a href="#">Новости</a></li>
                 <li class="header-menu__item"><a href="#">Соглашения</a></li>
             </ul>
-            <ul class="header__menu-actions header-actions">
-                <li class="header-actions__item"><a href="./vendor/login.php">Войти</a></li>
-                <li class="header-actions__item"><a href="">Зарегистрироваться</a></li>
+            <ul class='header__menu-actions header-actions'>
+                <?php
+                if (!empty($_SESSION['auth'])) {
+                    echo "<li class='header-actions__item'><a style='display: block' href='?logout=true'>Выход</a></li>";
+                } else { ?>
+                    <?php
+                    echo "<li class='header-actions__item'><a href='./vendor/login.php'>Войти</a></li><li class='header-actions__item'><a href=''>Зарегистрироваться</a></li>";
+                }
+                ?>
             </ul>
         </div>
     </header>
     <main class="page">
-       
+        <section class="hero">
+            <div class="hero__container">
+
+            </div>
+        </section>
+
     </main>
     <footer style="background-color: antiquewhite" class="footer">Footer</footer>
-    <?php
-
-    ?>
 </div>
 </body>
 </html>
