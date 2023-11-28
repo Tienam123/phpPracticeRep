@@ -1,0 +1,23 @@
+.page {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+input {
+  border: 1px solid teal;
+  padding: 10px;
+}
+button {
+  background-color: teal;
+  padding: 10px 20px;
+  color: #e3e3e3;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
