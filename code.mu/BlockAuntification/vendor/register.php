@@ -1,9 +1,7 @@
 <?php
+session_start();
 require '../config/connect.php';
 require_once '../config/functions.php';
-if (isset($_SESSION)) {
-    var_dump($_SESSION);
-}
 ?>
 <!doctype html>
 <html lang="en">
@@ -30,18 +28,38 @@ if (isset($_SESSION)) {
                 <li class="header-menu__item"><a href="#">Соглашения</a></li>
             </ul>
             <ul class="header__menu-actions header-actions">
-                <li class="header-actions__item"><a href="">Зарегистрироваться</a></li>
+                <li class="header-actions__item"><a href="./login.php">Войти</a></li>
             </ul>
         </div>
     </header>
     <main class="page">
         <section class="login">
             <div class="login__container">
-
-                <form action="aunth.php" method="post">
+                <script>
+                  function resetForm() {
+                    const form = document.querySelector('form');
+                    form.reset();
+                  }
+                </script>
+                <form action="aunthRegister.php" autocomplete="off" method="post">
+                    <input type="text" placeholder="Введите фамилию" name="secondName">
+                    <input type="text" placeholder="Введите имя" name="name">
                     <input type="text" placeholder="Введите логин" name="login">
                     <input name="password" placeholder="Введите пароль" type="password">
-                    <button type="submit">Войти</button>
+                    <input name="confPass" placeholder="Подтвердите пароль" type="password">
+                    <input type="text" placeholder="Введите E-mail" name="email">
+                    <button type="submit">Зарегистриваться</button>
+                    <?php
+                    if (isset($_SESSION['message'])) {
+                        if ($_SESSION['auth']) {
+                            echo '<p>'.$_SESSION['message'].'</p>';
+                            unset($_SESSION['message']);
+                        } else {
+                            echo '<p style="color: red">'.$_SESSION['message'].'</p>';
+                            unset($_SESSION['message']);
+                        }
+                    }
+                    ?>
                 </form>
             </div>
         </section>
@@ -50,5 +68,14 @@ if (isset($_SESSION)) {
     <?php
     ?>
 </div>
+<script>
+    function resetForm() {
+      const form = document.querySelector('form');
+      form.reset();
+    }
+    window.onload = function() {
+      resetForm();
+    }
+</script>
 </body>
 </html>

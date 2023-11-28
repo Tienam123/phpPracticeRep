@@ -4,7 +4,7 @@
 $servername = 'localhost';
 $login = 'root';
 $password = '';
-$dbName = 'api_tester';
+$dbName = 'code__db';
 
 $connect = new mysqli($servername,$login,$password,$dbName);
 if ($connect->connect_error) {

@@ -28,17 +28,23 @@ require_once '../config/functions.php';
                 <li class="header-menu__item"><a href="#">Соглашения</a></li>
             </ul>
             <ul class="header__menu-actions header-actions">
-                <li class="header-actions__item"><a href="">Зарегистрироваться</a></li>
+                <li class="header-actions__item"><a href="./register.php">Зарегистрироваться</a></li>
             </ul>
         </div>
     </header>
     <main class="page">
         <section class="login">
             <div class="login__container">
-                <form action="aunth.php" method="post">
+                <form action="aunth.php" method="post" autocomplete="off">
                     <input type="text" placeholder="Введите логин" name="login">
                     <input name="password" placeholder="Введите пароль" type="password">
                     <button type="submit">Войти</button>
+                    <script>
+                        function resetForm() {
+                           const form = document.querySelector('form');
+                           form.reset();
+                        }
+                    </script>
                         <?php
                         if (isset($_SESSION['message'])) {
                             if ($_SESSION['auth']) {
@@ -58,5 +64,14 @@ require_once '../config/functions.php';
     <?php
     ?>
 </div>
+<script>
+  function resetForm() {
+    const form = document.querySelector('form');
+    form.reset();
+  }
+  window.onload = function() {
+    resetForm();
+  }
+</script>
 </body>
 </html>
