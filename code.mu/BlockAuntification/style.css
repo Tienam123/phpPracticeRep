@@ -124,7 +124,10 @@ h6 {
 }
 
 .header {
-  color: rgba(31, 32, 65, 0.5);
+  text-transform: uppercase;
+  background-color: #1B1A23;
+  color: #fff;
+  padding: 10px 0;
 }
 .header__container {
   display: -webkit-box;
@@ -146,16 +149,7 @@ h6 {
   gap: 10px;
 }
 .header-actions__item a {
-  padding: 10px 20px;
-  border-radius: 50px;
-}
-.header-actions__item:nth-child(1) a {
-  border: 1px solid #BC9CFF;
-  color: #BC9CFF;
-}
-.header-actions__item:nth-child(2) a {
-  background-color: #BC9CFF;
-  color: #e3e3e3;
+  color: #fff;
 }
 
 input {

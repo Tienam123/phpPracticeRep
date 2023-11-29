@@ -25,15 +25,14 @@ if (isset($_GET['logout'])) {
 <div id="root">
     <header class="header">
         <div class="header__container">
-            <a href="./index.php"><img src="./assets/Logo.svg" alt="" width="105" height="40"></a>
+            <a href="./index.php"><img src="./assets/logo-icon.svg" alt="" width="105" height="40"></a>
             <ul class="header__menu header-menu" style="display: flex;justify-content: center;
         align-items: center;gap: 20px;font-family: Montserrat;font-size: 14px;font-style: normal;font-weight: 400;line-height: normal;rgba(31, 32, 65, 0.50)
 ">
-                <li class="header-menu__item"><a href="#">О нас</a></li>
-                <li class="header-menu__item"><a href="#">Услуги</a></li>
-                <li class="header-menu__item"><a href="#">Вакансии</a></li>
-                <li class="header-menu__item"><a href="#">Новости</a></li>
-                <li class="header-menu__item"><a href="#">Соглашения</a></li>
+                <li class="header-menu__item"><a href="#">Лента</a></li>
+                <li class="header-menu__item"><a href="#">Знакомства</a></li>
+                <li class="header-menu__item"><a href="#">Друзья</a></li>
+                <li class="header-menu__item"><a href="#">Сообщения</a></li>
             </ul>
             <ul class='header__menu-actions header-actions'>
                 <?php
