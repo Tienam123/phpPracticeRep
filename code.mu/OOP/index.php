@@ -1,21 +1,77 @@
 <?php
 
-class Employee
+class User
 {
     public $name;
     public $age;
     public $salary;
+
+
+    public function getName()
+    {
+        return $this->name;
+    }
+
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
+
+    public function getAge()
+    {
+        return $this->age;
+    }
+
+    public function setAge($age)
+    {
+        if ($age >= 18) {
+            $this->age = $age;
+        }
+
+    }
+
+    public function getSalary()
+    {
+        return $this->salary;
+    }
+
+    public function setSalary($salary)
+    {
+        $this->salary = $salary;
+    }
+
+    public function doubleSalary()
+    {
+        $this->salary *= 2;
+    }
+
 }
 
-$john = new Employee();
-$john->name = 'John';
-$john->age = 25;
-$john->salary = 1000;
+$user = new User();
+$user->setName('Vladyslav');
+$user->setAge(19);
+$user->setSalary(5000);
+$user->doubleSalary();
+var_dump($user);
 
-$eric = new Employee();
-$eric->name = 'Eric';
-$eric->age = 26;
-$eric->salary = 2000;
+class Restangle
+{
+    public $width;
+    public $height;
+    public function __construct($width,$height)
+    {
+        $this->width=$width;
+        $this->height=$height;
+    }
 
-var_dump($john->salary+$eric->salary);
-var_dump($john->age+$eric->age);
+    public function getSquare()
+    {
+        return $this->height * $this->width;
+    }
+    public function getPerimeter(){
+        return ($this->height + $this->width)*2;
+    }
+}
+
+$figure = new Restangle(13,23);
+var_dump($figure->getSquare());
