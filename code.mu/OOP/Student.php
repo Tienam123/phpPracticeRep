@@ -1,37 +1,29 @@
 <?php
+require_once "User.php";
 
-class Student
+class Student extends User
 {
-    private $name;
-    private $course=1;
-
-    public function __construct($name)
-    {
-        $this->name = $name;
-    }
-
-    private function isCourseCorrect()
-    {
-        if ($this->course >= 1 && $this->course <= 5) {
-            return true;
-        }
-    }
-
-    public function getName()
-    {
-        return $this->name;
-    }
+    private $course;
 
     public function getCourse()
     {
         return $this->course;
     }
 
-    public function tranferToNewCourse()
+    public function setCourse($course)
     {
-        if ($this->isCourseCorrect()) {
-            $this->course += 1;
+        if ($course >= 1 && $course <= 5) {
+            $this->course = $course;
         }
     }
 
+    public function setAge($age)
+    {
+        if ($age >= 18 && $age <= 25) {
+            $this->age = $age;
+        }
+    }
 }
+
+$student = new Student();
+var_dump($student);

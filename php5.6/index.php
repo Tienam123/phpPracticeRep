@@ -1,22 +1,31 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Php 5.6 Урок</title>
-</head>
-<body>
 <?php
-include 'Car.php';
-include 'Mitsubishi.php';
-include 'BMW.php';
+$result = [
+    1 => [
+        'id' => 1,
+        'name' => 'Vasiliy',
+        'surname' => 'Labza',
+        'age' => 32
+    ], 2 => [
+        'id' => 2,
+        'name' => 'Marina',
+        'surname' => 'Yaroshenko',
+        'age' => 26
+    ], 3 => [
+        'id' => 3,
+        'name' => 'Oleksandr',
+        'surname' => 'Burba',
+        'age' => 30
+    ], 4 => [
+        'id' => 4,
+        'name' => 'Leonid',
+        'surname' => 'Honchar',
+        'age' => 30
+    ],
+];
 
-$car = new Car('Honda');
+class User {
+    public $name;
+    
+}
 
-var_dump($car->color = 'red');
-
-?>
-</body>
-</html>
+$user1 = new User();

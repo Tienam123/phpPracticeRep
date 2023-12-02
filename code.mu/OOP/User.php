@@ -3,12 +3,28 @@
 class User
 {
     private $name;
-    private $age;
+    protected $age;
 
-    public function __construct($name, $age)
+    public function getName()
     {
-        $this->name = $name;
-        $this->age = $age;
+        return $this->name;
     }
 
+    public function getAge()
+    {
+        return $this->age;
+    }
+
+    public function setAge($age)
+    {
+        if ($age >= 18) {
+            $this->age = $age;
+        }
+
+    }
+
+    public function setName($name)
+    {
+        $this->name = $name;
+    }
 }
