@@ -7,7 +7,7 @@ $password = $_POST['password'];
 $name = $_POST['name'];
 $secondName = $_POST['secondName'];
 $confPass = $_POST['confPass'];
-$query = "SELECT * FROM users WHERE login='$login'";
+$query = "SELECT * FROM users WHERE login='$login'"``;
 $res = $connect->query($query);
 if ($login !== '' && $secondName !== '' && $name !== '' && $password !== '') {
     if ($res->num_rows > 0) {
@@ -21,13 +21,12 @@ if ($login !== '' && $secondName !== '' && $name !== '' && $password !== '') {
         $_SESSION['auth'] = false;
         die();
     } else {
-        $query = "INSERT INTO `users` (`id`, `secondName`,`name`, `login`, `email`, `password`, `role`, `isOnline`) VALUES 
-                                    (null,'$secondName','$name','$login','$email','$password','user','true')";
+        $query = "INSERT INTO users (`id`, `secondName`,`name`, `login`, `email`, users.`password`, `role`, `isOnline`) VALUES 
+                            (null,'$secondName','$name','$login','$email','$password','user','true')";
         $res = $connect->query($query);
         $_SESSION['auth'] = true;
         header('Location: ../index.php');
     }
-
 } else {
     $_SESSION['message'] = 'Строки не могут быть пустыми';
     $_SESSION['auth'] = false;

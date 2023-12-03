@@ -5,21 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2300cf29-c5ad-419d-b1ab-7837b6745bd4" name="Changes" comment="OOP PHP">
-      <change afterPath="$PROJECT_DIR$/framework/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson1/00.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson1/Student.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php5.6/1234.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6698db47-eca8-434b-a7d3-9e3de7d19f0c.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6698db47-eca8-434b-a7d3-9e3de7d19f0c/storage_v2/_src_/schema/api_tester.hEZHdg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6698db47-eca8-434b-a7d3-9e3de7d19f0c/storage_v2/_src_/schema/code__db.y49IzA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6698db47-eca8-434b-a7d3-9e3de7d19f0c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6698db47-eca8-434b-a7d3-9e3de7d19f0c/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6698db47-eca8-434b-a7d3-9e3de7d19f0c/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/6698db47-eca8-434b-a7d3-9e3de7d19f0c/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpPracticeRep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpPracticeRep.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/uploads/1700580078Screenshot2023-11-12051209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/uploads/1700580142Screenshot2023-11-12051209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/uploads/1700580259Screenshot2023-11-12051209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/uploads/1700580325Screenshot2023-11-12051209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/uploads/1700580329Screenshot2023-11-12051209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/uploads/1700580389Screenshot2023-11-12051209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/uploads/1700580600Screenshot2023-11-12051209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/uploads/1700587067Screenshot 2023-11-19 213940.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/vendor/connect.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/vendor/signup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.mu/BlockAuntification/vendor/aunthRegister.php" beforeDir="false" afterPath="$PROJECT_DIR$/code.mu/BlockAuntification/vendor/aunthRegister.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.mu/OOP/Student.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.mu/OOP/User.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.mu/OOP/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code.mu/OOP/rector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php5.6/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/php5.6/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +40,31 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="rector.php" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/code.mu/BlockAuntification/vendor/aunthRegister.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/framework/index.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/framework/vendor/composer/autoload_classmap.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/framework/vendor/composer/autoload_files.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/framework/vendor/composer/autoload_namespaces.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/framework/vendor/composer/autoload_psr4.php" root0="FORCE_HIGHLIGHTING" root1="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\OSPanel\modules\php\PHP_8.1\php.exe">
     <include_path>
       <path value="$PROJECT_DIR$/framework/vendor/symfony/deprecation-contracts" />
       <path value="$PROJECT_DIR$/framework/vendor/symfony/var-dumper" />
@@ -63,36 +84,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
-    &quot;database.data.extractors.current.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/domains/phpPracticeRep/code.mu/BlockAuntification/vendor&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "CSV-Groovy.csv.groovy",
+    "database.data.extractors.current.id": "CSV-Groovy.csv.groovy",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/OSPanel/domains/phpPracticeRep",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.disable.when",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OSPanel\domains\phpPracticeRep\code.mu\BlockAuntification\vendor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\phpPracticeRep\OOP\lesson1" />
       <recent name="D:\OSPanel\domains\phpPracticeRep\code.mu\BlockAuntification\vendor" />
       <recent name="D:\OSPanel\domains\phpPracticeRep\code.mu\BlockAuntification\config" />
     </key>
@@ -120,7 +142,25 @@
       <workItem from="1701504069724" duration="1164000" />
       <workItem from="1701531456863" duration="9736000" />
       <workItem from="1701559091328" duration="3777000" />
-      <workItem from="1701579471149" duration="15000" />
+      <workItem from="1701579471149" duration="2124000" />
+      <workItem from="1701581635270" duration="9449000" />
+      <workItem from="1701597288753" duration="29000" />
+      <workItem from="1701597335940" duration="162000" />
+      <workItem from="1701597506973" duration="1184000" />
+      <workItem from="1701598707760" duration="100000" />
+      <workItem from="1701598816714" duration="1029000" />
+      <workItem from="1701599858227" duration="100000" />
+      <workItem from="1701599967592" duration="122000" />
+      <workItem from="1701600300237" duration="878000" />
+      <workItem from="1701603360915" duration="32000" />
+      <workItem from="1701603411683" duration="29000" />
+      <workItem from="1701603450469" duration="2702000" />
+      <workItem from="1701606785864" duration="279000" />
+      <workItem from="1701607079906" duration="142000" />
+      <workItem from="1701607426373" duration="234000" />
+      <workItem from="1701607671153" duration="239000" />
+      <workItem from="1701607918513" duration="2241000" />
+      <workItem from="1701610172873" duration="1732000" />
     </task>
     <task id="LOCAL-00001" summary="Форма регистрации и авторизация на PHP">
       <option name="closed" value="true" />
@@ -210,11 +250,30 @@
       <option name="project" value="LOCAL" />
       <updated>1701541538870</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="OOP PHP">
+      <option name="closed" value="true" />
+      <created>1701579613460</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701579613460</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Форма регистрации и авторизация на PHP" />
@@ -224,5 +283,14 @@
     <MESSAGE value="Сделана регистрация с автовходом в случае успеха php" />
     <MESSAGE value="OOP PHP" />
     <option name="LAST_COMMIT_MESSAGE" value="OOP PHP" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="phpPracticeRep" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file://D:/OSPanel/domains/phpPracticeRep}" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
   </component>
 </project>
