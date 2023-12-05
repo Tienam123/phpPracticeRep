@@ -7,6 +7,9 @@
       <excludeFolder url="file://$MODULE_DIR$/framework/vendor/symfony/deprecation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/framework/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/framework/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/OOP/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/OOP/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/OOP/vendor/symfony/var-dumper" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

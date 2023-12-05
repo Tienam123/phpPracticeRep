@@ -5,18 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2300cf29-c5ad-419d-b1ab-7837b6745bd4" name="Changes" comment="OOP PHP">
-      <change afterPath="$PROJECT_DIR$/OOP/lesson2/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/01/demo01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/01/demo02.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpPracticeRep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpPracticeRep.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/lesson1/00.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/lesson1/Student.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/lesson2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/lesson2/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerConfigs">
+    <option name="configs">
+      <option value="$PROJECT_DIR$/framework/composer.json" />
+    </option>
+  </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/framework/composer.json</pharConfigPath>
+    <pharConfigPath>$PROJECT_DIR$/OOP/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -63,9 +71,12 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\OSPanel\modules\php\PHP_8.1\php.exe">
     <include_path>
+      <path value="$PROJECT_DIR$/OOP/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/OOP/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/OOP/vendor/composer" />
       <path value="$PROJECT_DIR$/framework/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/framework/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/framework/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/framework/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/framework/vendor/composer" />
     </include_path>
   </component>
@@ -90,14 +101,14 @@
     &quot;database.data.extractors.current.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/domains/phpPracticeRep&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/domains/phpPracticeRep/OOP/lesson2/01&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.statistic.project.settings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -108,6 +119,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\phpPracticeRep\OOP\lesson2\01" />
       <recent name="D:\OSPanel\domains\phpPracticeRep\code.mu\BlockAuntification\vendor" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -115,6 +127,12 @@
       <recent name="D:\OSPanel\domains\phpPracticeRep\code.mu\BlockAuntification\vendor" />
       <recent name="D:\OSPanel\domains\phpPracticeRep\code.mu\BlockAuntification\config" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
+      <option name="pathToComposerJson" value="$PROJECT_DIR$/framework/composer.json" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -159,7 +177,8 @@
       <workItem from="1701607918513" duration="2241000" />
       <workItem from="1701610172873" duration="3364000" />
       <workItem from="1701694135330" duration="409000" />
-      <workItem from="1701694756478" duration="11502000" />
+      <workItem from="1701694756478" duration="15216000" />
+      <workItem from="1701761625709" duration="1463000" />
     </task>
     <task id="LOCAL-00001" summary="Форма регистрации и авторизация на PHP">
       <option name="closed" value="true" />
@@ -265,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701612285891</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="OOP PHP">
+      <option name="closed" value="true" />
+      <created>1701752426401</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1701752426402</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
