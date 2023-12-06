@@ -5,13 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2300cf29-c5ad-419d-b1ab-7837b6745bd4" name="Changes" comment="OOP PHP">
-      <change afterPath="$PROJECT_DIR$/OOP/lesson2/01/demo01.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/lesson2/01/demo02.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpPracticeRep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpPracticeRep.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/01/demo03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/01/demo04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/01/demo05.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/lesson2/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/lesson2/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/framework/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/framework/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/lesson2/01/demo02.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/lesson2/01/demo02.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,31 +90,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
-    &quot;database.data.extractors.current.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/domains/phpPracticeRep/OOP/lesson2/01&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "CSV-Groovy.csv.groovy",
+    "database.data.extractors.current.id": "CSV-Groovy.csv.groovy",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/OSPanel/domains/phpPracticeRep/OOP/lesson2/01",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\OSPanel\domains\phpPracticeRep\OOP\lesson2\01" />
@@ -178,7 +176,9 @@
       <workItem from="1701610172873" duration="3364000" />
       <workItem from="1701694135330" duration="409000" />
       <workItem from="1701694756478" duration="15216000" />
-      <workItem from="1701761625709" duration="1463000" />
+      <workItem from="1701761625709" duration="7297000" />
+      <workItem from="1701818334078" duration="23000" />
+      <workItem from="1701864786258" duration="2872000" />
     </task>
     <task id="LOCAL-00001" summary="Форма регистрации и авторизация на PHP">
       <option name="closed" value="true" />
@@ -292,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701752426402</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="OOP PHP">
+      <option name="closed" value="true" />
+      <created>1701763651489</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1701763651489</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
