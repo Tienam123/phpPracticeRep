@@ -18,3 +18,4 @@ $student            = new Student();
 $student->firstName = 'Vasya';
 $student->lastName  = 'Pipkin';
 echo $student->getFullName().PHP_EOL;
+var_dump($_SERVER);
