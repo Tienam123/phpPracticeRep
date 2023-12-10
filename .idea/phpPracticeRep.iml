@@ -3,10 +3,6 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/OOP/lesson1" isTestSource="false" packagePrefix="demo02" />
-      <excludeFolder url="file://$MODULE_DIR$/framework/vendor/composer" />
-      <excludeFolder url="file://$MODULE_DIR$/framework/vendor/symfony/deprecation-contracts" />
-      <excludeFolder url="file://$MODULE_DIR$/framework/vendor/symfony/polyfill-mbstring" />
-      <excludeFolder url="file://$MODULE_DIR$/framework/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/OOP/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/OOP/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/OOP/vendor/symfony/var-dumper" />

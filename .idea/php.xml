@@ -15,10 +15,6 @@
       <path value="$PROJECT_DIR$/OOP/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/OOP/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/OOP/vendor/composer" />
-      <path value="$PROJECT_DIR$/framework/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/framework/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/framework/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/framework/vendor/composer" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />

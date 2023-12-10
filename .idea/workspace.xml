@@ -4,19 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2300cf29-c5ad-419d-b1ab-7837b6745bd4" name="Changes" comment="OOP PHP Рефакторинг класса с разделением на TDO">
-      <change beforePath="$PROJECT_DIR$/OOP/lesson2/02/demo10.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/lesson2/02/demo10.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/lesson2/02/demo12.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/lesson2/02/demo12.php" afterDir="false" />
+    <list default="true" id="2300cf29-c5ad-419d-b1ab-7837b6745bd4" name="Changes" comment="OOP PHP Lesson #3">
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/03/demo02.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/03/demo03.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/03/demo04.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/03/demo05.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/03/demo06.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/03/demo07.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/03/demo08.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OOP/lesson2/03/demo09.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/phpPracticeRep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpPracticeRep.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/lesson2/03/demo01.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/lesson2/03/demo01.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework/index.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerConfigs">
-    <option name="configs">
-      <option value="$PROJECT_DIR$/framework/composer.json" />
-    </option>
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/OOP/composer.json</pharConfigPath>
@@ -75,10 +83,6 @@
       <path value="$PROJECT_DIR$/OOP/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/OOP/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/OOP/vendor/composer" />
-      <path value="$PROJECT_DIR$/framework/vendor/symfony/deprecation-contracts" />
-      <path value="$PROJECT_DIR$/framework/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/framework/vendor/symfony/var-dumper" />
-      <path value="$PROJECT_DIR$/framework/vendor/composer" />
     </include_path>
   </component>
   <component name="ProblemsViewState">
@@ -93,33 +97,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;database.data.extractors.current.export.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
-    &quot;database.data.extractors.current.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/domains/phpPracticeRep/OOP/lesson2/02&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "database.data.extractors.current.export.id": "CSV-Groovy.csv.groovy",
+    "database.data.extractors.current.id": "CSV-Groovy.csv.groovy",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/OSPanel/domains/phpPracticeRep/framework",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\phpPracticeRep\OOP\lesson2\03" />
       <recent name="D:\OSPanel\domains\phpPracticeRep\OOP\lesson2\02" />
       <recent name="D:\OSPanel\domains\phpPracticeRep\OOP\lesson2\01" />
       <recent name="D:\OSPanel\domains\phpPracticeRep\code.mu\BlockAuntification\vendor" />
@@ -130,11 +135,27 @@
       <recent name="D:\OSPanel\domains\phpPracticeRep\code.mu\BlockAuntification\config" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.demo08.php">
     <configuration default="true" type="ComposerRunConfigurationType" factoryName="Composer Script">
       <option name="pathToComposerJson" value="$PROJECT_DIR$/framework/composer.json" />
       <method v="2" />
     </configuration>
+    <configuration name="demo09.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/phpPracticeRep/OOP/lesson2/03/demo09.php" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo07.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/OOP/lesson2/03/demo07.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo08.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/OOP/lesson2/03/demo08.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.demo08.php" />
+        <item itemvalue="JavaScript Debug.demo09.php" />
+        <item itemvalue="PHP Script.demo07.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -186,6 +207,8 @@
       <workItem from="1702023840919" duration="648000" />
       <workItem from="1702028498039" duration="21000" />
       <workItem from="1702036488684" duration="9953000" />
+      <workItem from="1702190976972" duration="7837000" />
+      <workItem from="1702209862048" duration="240000" />
     </task>
     <task id="LOCAL-00001" summary="Форма регистрации и авторизация на PHP">
       <option name="closed" value="true" />
@@ -323,7 +346,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702044729744</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="OOP PHP Lesson #3">
+      <option name="closed" value="true" />
+      <created>1702191258293</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702191258293</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +379,8 @@
     <MESSAGE value="Сделана регистрация с автовходом в случае успеха php" />
     <MESSAGE value="OOP PHP" />
     <MESSAGE value="OOP PHP Рефакторинг класса с разделением на TDO" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP PHP Рефакторинг класса с разделением на TDO" />
+    <MESSAGE value="OOP PHP Lesson #3" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP PHP Lesson #3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
