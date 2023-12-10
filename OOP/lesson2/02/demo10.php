@@ -41,4 +41,4 @@ $adress = [
     'street'  => 'Lenina',
     'house'   => 1
 ]
-$service->recruitEmployee($name, $phone, $street);
+$service->recruitEmployee($name, $phone, $adress);

@@ -1,6 +1,6 @@
 <?php
 
-namespace lesson2\example3\demo12;
+namespace lesson2\example3\demo15;
 
 class Name
 {
@@ -72,7 +72,9 @@ class Employee
     {
         return $this->name;
     }
-
+    public function setName (Name $name) {
+        $this->name = $name;
+    }
     public function getPhone()
     {
         return $this->phone;
@@ -114,5 +116,7 @@ $employee = $service->recruitEmployee(
     new Phone('+38', '0635262415'),
     new Adress('Ukraine', 'Dnipropetrovska obl.', 'Novomoskovsk', 'Malinova', '50')
 );
+var_dump($employee->getName()->getFullName());
+$employee->setName(new Name('Ruslan','Honchar'));
 var_dump($employee->getName()->getFullName());
 ######################################################################################

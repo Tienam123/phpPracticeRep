@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2300cf29-c5ad-419d-b1ab-7837b6745bd4" name="Changes" comment="OOP PHP">
-      <change afterPath="$PROJECT_DIR$/OOP/lesson2/02/StringHelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP/lesson2/02/demo01.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/lesson2/01/demo01.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/lesson2/01/demo01.php" afterDir="false" />
+    <list default="true" id="2300cf29-c5ad-419d-b1ab-7837b6745bd4" name="Changes" comment="OOP PHP Рефакторинг класса с разделением на TDO">
+      <change beforePath="$PROJECT_DIR$/OOP/lesson2/02/demo10.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/lesson2/02/demo10.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP/lesson2/02/demo12.php" beforeDir="false" afterPath="$PROJECT_DIR$/OOP/lesson2/02/demo12.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +64,12 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="PhpStorm 2023.2.4" id="ac7c5fc3-db4b-4379-b31e-1b6d8c2991ca" name="PhpStorm 2023.2.4" port="63342" />
+    </servers>
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="D:\OSPanel\modules\php\PHP_8.1\php.exe">
     <include_path>
       <path value="$PROJECT_DIR$/OOP/vendor/symfony/var-dumper" />
@@ -98,7 +102,7 @@
     &quot;database.data.extractors.current.id&quot;: &quot;CSV-Groovy.csv.groovy&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/domains/phpPracticeRep/OOP/lesson2/01&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/OSPanel/domains/phpPracticeRep/OOP/lesson2/02&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -116,6 +120,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\phpPracticeRep\OOP\lesson2\02" />
       <recent name="D:\OSPanel\domains\phpPracticeRep\OOP\lesson2\01" />
       <recent name="D:\OSPanel\domains\phpPracticeRep\code.mu\BlockAuntification\vendor" />
     </key>
@@ -180,6 +185,7 @@
       <workItem from="1701864786258" duration="5306000" />
       <workItem from="1702023840919" duration="648000" />
       <workItem from="1702028498039" duration="21000" />
+      <workItem from="1702036488684" duration="9953000" />
     </task>
     <task id="LOCAL-00001" summary="Форма регистрации и авторизация на PHP">
       <option name="closed" value="true" />
@@ -309,7 +315,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701869235410</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="OOP PHP Рефакторинг класса с разделением на TDO">
+      <option name="closed" value="true" />
+      <created>1702044729744</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702044729744</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +347,8 @@
     <MESSAGE value="Сделана авторизация через сесии php" />
     <MESSAGE value="Сделана регистрация с автовходом в случае успеха php" />
     <MESSAGE value="OOP PHP" />
-    <option name="LAST_COMMIT_MESSAGE" value="OOP PHP" />
+    <MESSAGE value="OOP PHP Рефакторинг класса с разделением на TDO" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP PHP Рефакторинг класса с разделением на TDO" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
